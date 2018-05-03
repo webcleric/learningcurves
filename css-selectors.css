@@ -1,0 +1,31 @@
+http://flukeout.github.io/
+
+Learning CSS Selectors
+
+
+a, span, div // selektovanje elementa po tagu
+. (class), # (id) // selektovanje elementa po klasi ili id'u
+div span // seleketovanje elementa u elementu
+div.klasa // selektovanje klase u elementu
+element, element // kombiniranje 
+* // univerzalni selektor (div p *)
+div + span // element do elementa
+div ~ span // svi elementi do elementa
+div > span // prvi element ili svi pod tim imenom u elementu
+:first-child // prvi element u elementu
+:only-child // samo jedan element koji je sam u elementu
+:last-child // zadnji element .small:last-child
+:nth-last-child(neki broj 1,2,3,4...) :nth-last-child(3)
+:first-of-type // specificni prvi element apple:first-of-type
+:nth-of-type(even,odd) // neparne ili parne
+:nth-of-type(An+B) //12 :nth-of-type(2n+3) selektuje svaki drugi element od treceg.
+:only-of-type // sve elemente istog tipa div .small:only-of-type
+:last-of-type // zadnji element specificnog tipa .small:last-of-type
+:empty // elementi koji su prazni i nemaju sadrzaja
+:not(x) // izaberi sve sem apple:not(.small)
+[attribut] // selektuje [type], [for], [href],
+a[attribut] // sa elementom
+bento[for="Vitaly"] // preciznije
+plate, bento[for^="Sa"] // sve elemente ili vrijednosti koje pocinju sa *Sa* vrijednošću
+*[for$="ato"] // selektuj sve vrijednosti sa *ato* nazivom u sebi
+*[for*="obb"] // sve sa ključnom riječi
