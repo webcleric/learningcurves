@@ -12,4 +12,7 @@
     // Style
 
      wp_enqueue_script ('ime-skripte', 'neka-skripta');
-?>
+
+     // Full codex here 
+     // https://developer.wordpress.org/reference/functions/wp_enqueue_script/#Default_scripts_included_with_WordPress
+?> 
