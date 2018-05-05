@@ -24,5 +24,9 @@
      add_filter( 'jpeg_quality', 'smashing_jpeg_quality' );
     function smashing_jpeg_quality() {
         return 100;
+
+
+    // Wordpress external Jquery and other scripts 
+    https://wordpress.org/plugins/use-google-libraries/
 }
 ?> 
