@@ -15,4 +15,14 @@
 
      // Full codex here 
      // https://developer.wordpress.org/reference/functions/wp_enqueue_script/#Default_scripts_included_with_WordPress
+     // Dev Guide Conflict free CSS and JavaScript
+     // https://www.smashingmagazine.com/2011/10/developers-guide-conflict-free-javascript-css-wordpress/
+
+
+     // Wordpress uses 90% of jpeg quality for images
+     // Fix
+     add_filter( 'jpeg_quality', 'smashing_jpeg_quality' );
+    function smashing_jpeg_quality() {
+        return 100;
+}
 ?> 
