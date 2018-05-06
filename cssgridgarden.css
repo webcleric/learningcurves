@@ -1,0 +1,16 @@
+#garden {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#water {
+  grid-column-start: 2; /* od kraja do pocetka */
+  grid-column-end: span 2;  /* od pocetka do kraja */
+}
+
+#water {
+
+  grid-column: 4 / 6 ; /* kratica, ponasa se kao obe vrijednosti podjeljenje sa kosom */
+}
+
