@@ -29,6 +29,21 @@
 
 #water {
   grid-area: 1 / 2 / 4 / 6;
+  /* Kratica */
   /* grid-row-start / grid-column-start / grid-row-end / grid-column-end
   /* sve zajedno  */
+}
+
+
+/* ///////////////////////////////////
+   /////////////////////////////////// */
+
+.water {
+  order: 0; 
+  /* Default */
+}
+
+#poison {
+  order: 5;
+  /* Changing of default order */
 }
