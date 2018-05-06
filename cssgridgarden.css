@@ -5,12 +5,30 @@
 }
 
 #water {
-  grid-column-start: 2; /* od kraja do pocetka */
-  grid-column-end: span 2;  /* od pocetka do kraja */
+  grid-column-start: 2;
+  /* od kraja do pocetka */
+  grid-column-end: span 2;
+  /* od pocetka do kraja */
 }
 
 #water {
-
-  grid-column: 4 / 6 ; /* kratica, ponasa se kao obe vrijednosti podjeljenje sa kosom */
+  grid-column: 4 / 6;
+  /* kratica, ponasa se kao obe vrijednosti podjeljenje sa kosom */
 }
 
+#water {
+  grid-row: 3 / 6;
+  /* easy peasy, works same as a column but used for rows */
+}
+
+#water {
+  grid-column: 2 / 6;
+  grid-row: 1 / 6;
+  /* Vise redova */
+}
+
+#water {
+  grid-area: 1 / 2 / 4 / 6;
+  /* grid-row-start / grid-column-start / grid-row-end / grid-column-end
+  /* sve zajedno  */
+}
