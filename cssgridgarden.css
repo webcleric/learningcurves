@@ -40,7 +40,7 @@
    /////////////////////////////////// */
 
 .water {
-  order: 0; 
+  order: 0;
   /* Default */
 }
 
@@ -48,10 +48,12 @@
   order: 5;
   /* Changing of default order */
 }
+
 .poison {
   order: -1;
   /* Accepts also negative values */
 }
+
 
 /* ///////////////////////////////////
    /////////////////////////////////// */
@@ -62,7 +64,6 @@
   /* Kratica */
   grid-template-rows: 20% 20% 20% 20% 20%;
 }
-
 
 #garden {
   grid-template-columns: 100px 3em 40%;
@@ -87,5 +88,7 @@
 /* ///////////////////////////////////
    /////////////////////////////////// */
 
-
-   
+#garden {
+  grid-template: 60% / 200px;
+  /* Combines grid-template-rows and grid-template-columns */
+}
