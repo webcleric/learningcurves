@@ -32,6 +32,8 @@
     //////////////////////////// jQuery ////////////////////////////////
     ////////////////////////////////////////////////////////////////////
 
+    // Worth mentioning that one must use jQuery instead of $ it is because WordPress may use $ for something other than jQuery, in the future, or now, and so you need to load jQuery in a way that the $ can be used only in a jQuery document ready callback.
+
 
     // Changing any text
     jQuery(document).ready(function () {

@@ -19,4 +19,13 @@ $(document).ready(function () {
 
     // Changing of CSS
     $("button").css("color", "orange");
+
+    // Disabling element // shows grayed out
+    $("#target1").prop("disabled", true);
+
+    // Editing text inside an element
+    $("#target4").html("<em>#target4</em>");
+
+    // Removing element
+    $("#target4").remove();
 }    
